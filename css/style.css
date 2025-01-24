@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+    box-sizing:border-box;
+  }
+  .aboreto-regular {
+    font-family: "Aboreto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .yomogi-regular {
+    font-family: "Yomogi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  /* html {
+    scroll-behavior: smooth;
+  } */
+
+  body {
+    margin: 0;
+    background-color: #AFBADB;
+  }
+
+  .pagetop {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .pagetop a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .pagetop:hover {
+    opacity: 0.85 ;
+  }
+
+  .wrapper {
+    width: 1290px;
+    margin: auto;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  header {
+    margin: 50px auto;
+    font-family: aboreto;
+  }
+
+  .hed {
+    position:relative;
+  }
+
+  .hed p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 64px;
+    text-shadow: 10px 4px 4px #546FC0;
+  }
+  
+  .hed img {
+    margin: auto;
+    display: block;
+  }
+/* 目次 */
+  .toc {
+    width: 1220px;
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto;
+    padding: 0;
+    font-size: 30px;
+    font-family: yomogi;
+  }
+
+  .toc p {
+    color: #fff;
+  }
+
+  .pro {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 200px;
+  }
+
+  .profile0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .profil {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    align-items: center;
+  }
+
+.pro-p {
+  display: inline-flex;
+  border: 1px solid #000000;
+  padding: 11px 31px;
+  font-family: aboreto;
+  background-color: #fff;
+  font-size: 32px;
+  color: #546FC0;
+}
+
+  .profile {
+    flex-direction: column;
+    margin: 150px 200px;
+  }
+
+  .profile0 img {
+    margin-top: 40px;
+  }
+  .profile .pro0 {
+   font-size: 36px;
+   font-family: yomogi;
+   border-bottom: 4px solid#fff;
+  }
+
+  .profile .pro1 {
+    font-size: 24px;
+    font-family: yomogi;
+   border-bottom: 1px solid#fff;
+  }
+
+  .profile .pro2 ,
+  .profile .pro3 {
+    font-size: 24px;
+    font-family: yomogi;
+   border-bottom: 1px solid#fff;
+   display: inline;
+  }
+
+  .ski {
+    display: flex;
+    gap: 240px;
+    align-items: center;
+    text-align: center;
+    padding: 100px 140px 0;
+    margin-top: 100px;
+    /* font-weight: bold; */
+  }
+
+  .skil {
+    font-size: 30px;
+    color: #fff;
+    font-family: yomogi;
+  }
+  .kill {
+    font-size: 36px;
+    color: #fff;
+  }
+
+  .ski-1 {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .hob-0 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .hob-2 {
+  width: 740px;
+  border: 1px solid #000;
+  gap: 50px;
+  display: flex;
+  margin: 70px 25px 0;
+  background-color: #fff;
+  font-family: yomogi;
+  padding:20px ;
+  align-items: center;
+  }
+
+  .hob-2 img {
+    width: 200px;
+    height: 200px;
+  }
+  .hob-1 p {
+    font-size: 24px;
+    border-bottom: 1px solid #546FC0;
+    display: inline;
+
+  }
+
+  h1 {
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: #546FC0;
+    /* border-bottom: 5px solid #546FC0; */
+  }
+
+  .hobby {
+    margin-bottom: 0;
+  }
+
+  .wo {
+    display: flex;
+    gap: 45px;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 220px;
+    font-family: yomogi;
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .work {
+    margin-top: 250px;
+    margin-bottom: 100px;
+  }
+
+
+  footer {
+    width: 100%;
+    background: #546FC0;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+  }
